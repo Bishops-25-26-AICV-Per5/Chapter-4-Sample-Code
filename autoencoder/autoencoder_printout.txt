@@ -1,0 +1,455 @@
+((torch_env) ) marcusj@MacBookPro Chapter 4 Sample Code % python autoencoder.py 
+Train batches = 26
+Validation batches = 7
+Initial learning rate: 0.00100000
+=== Epoch 1 ===
+Train:		Batch: 26       Loss: 5679.18841
+Validation:	Batch: 7	Loss: 2606.6212
+=== Epoch 2 ===
+Train:		Batch: 26       Loss: 1930.2414
+Validation:	Batch: 7	Loss: 1691.1445
+=== Epoch 3 ===
+Train:		Batch: 26       Loss: 1457.4053
+Validation:	Batch: 7	Loss: 1471.2274
+=== Epoch 4 ===
+Train:		Batch: 26       Loss: 1304.1728
+Validation:	Batch: 7	Loss: 1317.7791
+=== Epoch 5 ===
+Train:		Batch: 26       Loss: 1175.6846
+Validation:	Batch: 7	Loss: 1198.3327
+=== Epoch 6 ===
+Train:		Batch: 26       Loss: 1081.5932
+Validation:	Batch: 7	Loss: 1098.0172
+=== Epoch 7 ===
+Train:		Batch: 26       Loss: 997.82868
+Validation:	Batch: 7	Loss: 1008.5112
+=== Epoch 8 ===
+Train:		Batch: 26       Loss: 932.69041
+Validation:	Batch: 7	Loss: 953.1607
+=== Epoch 9 ===
+Train:		Batch: 26       Loss: 895.4564
+Validation:	Batch: 7	Loss: 921.2825
+=== Epoch 10 ===
+Train:		Batch: 26       Loss: 865.9739
+Validation:	Batch: 7	Loss: 891.1087
+=== Epoch 11 ===
+Train:		Batch: 26       Loss: 839.5016
+Validation:	Batch: 7	Loss: 865.2862
+=== Epoch 12 ===
+Train:		Batch: 26       Loss: 816.7153
+Validation:	Batch: 7	Loss: 841.6589
+=== Epoch 13 ===
+Train:		Batch: 26       Loss: 796.1819
+Validation:	Batch: 7	Loss: 821.1776
+=== Epoch 14 ===
+Train:		Batch: 26       Loss: 778.6811
+Validation:	Batch: 7	Loss: 804.1794
+=== Epoch 15 ===
+Train:		Batch: 26       Loss: 763.9534
+Validation:	Batch: 7	Loss: 789.2735
+=== Epoch 16 ===
+Train:		Batch: 26       Loss: 750.4756
+Validation:	Batch: 7	Loss: 776.9856
+=== Epoch 17 ===
+Train:		Batch: 26       Loss: 739.6126
+Validation:	Batch: 7	Loss: 766.3173
+=== Epoch 18 ===
+Train:		Batch: 26       Loss: 730.2356
+Validation:	Batch: 7	Loss: 756.9573
+=== Epoch 19 ===
+Train:		Batch: 26       Loss: 721.8803
+Validation:	Batch: 7	Loss: 748.4161
+=== Epoch 20 ===
+Train:		Batch: 26       Loss: 714.1607
+Validation:	Batch: 7	Loss: 740.4098
+=== Epoch 21 ===
+Train:		Batch: 26       Loss: 706.8874
+Validation:	Batch: 7	Loss: 732.7976
+=== Epoch 22 ===
+Train:		Batch: 26       Loss: 699.9565
+Validation:	Batch: 7	Loss: 725.5387
+=== Epoch 23 ===
+Train:		Batch: 26       Loss: 693.3971
+Validation:	Batch: 7	Loss: 718.5859
+=== Epoch 24 ===
+Train:		Batch: 26       Loss: 686.9583
+Validation:	Batch: 7	Loss: 711.8858
+=== Epoch 25 ===
+Train:		Batch: 26       Loss: 680.7407
+Validation:	Batch: 7	Loss: 705.4301
+=== Epoch 26 ===
+Train:		Batch: 26       Loss: 674.6975
+Validation:	Batch: 7	Loss: 699.1516
+=== Epoch 27 ===
+Train:		Batch: 26       Loss: 668.7579
+Validation:	Batch: 7	Loss: 692.9018
+=== Epoch 28 ===
+Train:		Batch: 26       Loss: 662.6728
+Validation:	Batch: 7	Loss: 686.3514
+=== Epoch 29 ===
+Train:		Batch: 26       Loss: 656.0066
+Validation:	Batch: 7	Loss: 678.7114
+=== Epoch 30 ===
+Train:		Batch: 26       Loss: 647.5704
+Validation:	Batch: 7	Loss: 668.1194
+=== Epoch 31 ===
+Train:		Batch: 26       Loss: 634.6354
+Validation:	Batch: 7	Loss: 651.6354
+=== Epoch 32 ===
+Train:		Batch: 26       Loss: 615.9724
+Validation:	Batch: 7	Loss: 632.9488
+=== Epoch 33 ===
+Train:		Batch: 26       Loss: 600.9106
+Validation:	Batch: 7	Loss: 621.4804
+=== Epoch 34 ===
+Train:		Batch: 26       Loss: 592.2997
+Validation:	Batch: 7	Loss: 614.4292
+=== Epoch 35 ===
+Train:		Batch: 26       Loss: 586.8259
+Validation:	Batch: 7	Loss: 609.2843
+=== Epoch 36 ===
+Train:		Batch: 26       Loss: 582.4116
+Validation:	Batch: 7	Loss: 603.9356
+=== Epoch 37 ===
+Train:		Batch: 26       Loss: 577.6843
+Validation:	Batch: 7	Loss: 599.5762
+=== Epoch 38 ===
+Train:		Batch: 26       Loss: 573.4517
+Validation:	Batch: 7	Loss: 595.6481
+=== Epoch 39 ===
+Train:		Batch: 26       Loss: 570.0421
+Validation:	Batch: 7	Loss: 592.0067
+=== Epoch 40 ===
+Train:		Batch: 26       Loss: 567.0791
+Validation:	Batch: 7	Loss: 589.1219
+=== Epoch 41 ===
+Train:		Batch: 26       Loss: 565.0589
+Validation:	Batch: 7	Loss: 586.2811
+=== Epoch 42 ===
+Train:		Batch: 26       Loss: 560.2968
+Validation:	Batch: 7	Loss: 581.6341
+=== Epoch 43 ===
+Train:		Batch: 26       Loss: 557.0225
+Validation:	Batch: 7	Loss: 578.3605
+=== Epoch 44 ===
+Train:		Batch: 26       Loss: 554.0165
+Validation:	Batch: 7	Loss: 575.2572
+=== Epoch 45 ===
+Train:		Batch: 26       Loss: 551.1663
+Validation:	Batch: 7	Loss: 572.2343
+=== Epoch 46 ===
+Train:		Batch: 26       Loss: 548.4025
+Validation:	Batch: 7	Loss: 569.3044
+=== Epoch 47 ===
+Train:		Batch: 26       Loss: 545.7273
+Validation:	Batch: 7	Loss: 566.4598
+=== Epoch 48 ===
+Train:		Batch: 26       Loss: 543.1326
+Validation:	Batch: 7	Loss: 563.7077
+=== Epoch 49 ===
+Train:		Batch: 26       Loss: 540.6223
+Validation:	Batch: 7	Loss: 561.0477
+=== Epoch 50 ===
+Train:		Batch: 26       Loss: 538.1964
+Validation:	Batch: 7	Loss: 558.4823
+=== Epoch 51 ===
+Train:		Batch: 26       Loss: 535.8554
+Validation:	Batch: 7	Loss: 556.0101
+=== Epoch 52 ===
+Train:		Batch: 26       Loss: 533.5984
+Validation:	Batch: 7	Loss: 553.6302
+=== Epoch 53 ===
+Train:		Batch: 26       Loss: 531.4234
+Validation:	Batch: 7	Loss: 551.3394
+=== Epoch 54 ===
+Train:		Batch: 26       Loss: 529.3274
+Validation:	Batch: 7	Loss: 549.1339
+=== Epoch 55 ===
+Train:		Batch: 26       Loss: 527.3074
+Validation:	Batch: 7	Loss: 547.0095
+=== Epoch 56 ===
+Train:		Batch: 26       Loss: 525.3585
+Validation:	Batch: 7	Loss: 544.9617
+=== Epoch 57 ===
+Train:		Batch: 26       Loss: 523.4779
+Validation:	Batch: 7	Loss: 542.9861
+=== Epoch 58 ===
+Train:		Batch: 26       Loss: 521.6617
+Validation:	Batch: 7	Loss: 541.0787
+=== Epoch 59 ===
+Train:		Batch: 26       Loss: 519.9064
+Validation:	Batch: 7	Loss: 539.2358
+=== Epoch 60 ===
+Train:		Batch: 26       Loss: 518.2089
+Validation:	Batch: 7	Loss: 537.4547
+=== Epoch 61 ===
+Train:		Batch: 26       Loss: 516.5669
+Validation:	Batch: 7	Loss: 535.7331
+=== Epoch 62 ===
+Train:		Batch: 26       Loss: 514.9786
+Validation:	Batch: 7	Loss: 534.0763
+=== Epoch 63 ===
+Train:		Batch: 26       Loss: 513.4425
+Validation:	Batch: 7	Loss: 532.4651
+=== Epoch 64 ===
+Train:		Batch: 26       Loss: 511.9578
+Validation:	Batch: 7	Loss: 530.9183
+=== Epoch 65 ===
+Train:		Batch: 26       Loss: 510.5237
+Validation:	Batch: 7	Loss: 529.4274
+=== Epoch 66 ===
+Train:		Batch: 26       Loss: 509.1378
+Validation:	Batch: 7	Loss: 527.9801
+=== Epoch 67 ===
+Train:		Batch: 26       Loss: 507.7939
+Validation:	Batch: 7	Loss: 526.5555
+=== Epoch 68 ===
+Train:		Batch: 26       Loss: 506.4826
+Validation:	Batch: 7	Loss: 525.1426
+=== Epoch 69 ===
+Train:		Batch: 26       Loss: 505.2029
+Validation:	Batch: 7	Loss: 523.7691
+=== Epoch 70 ===
+Train:		Batch: 26       Loss: 503.9631
+Validation:	Batch: 7	Loss: 522.4585
+=== Epoch 71 ===
+Train:		Batch: 26       Loss: 502.7719
+Validation:	Batch: 7	Loss: 521.1999
+=== Epoch 72 ===
+Train:		Batch: 26       Loss: 501.6199
+Validation:	Batch: 7	Loss: 519.9794
+=== Epoch 73 ===
+Train:		Batch: 26       Loss: 500.5041
+Validation:	Batch: 7	Loss: 518.7949
+=== Epoch 74 ===
+Train:		Batch: 26       Loss: 499.4212
+Validation:	Batch: 7	Loss: 517.6436
+=== Epoch 75 ===
+Train:		Batch: 26       Loss: 498.3692
+Validation:	Batch: 7	Loss: 516.5237
+=== Epoch 76 ===
+Train:		Batch: 26       Loss: 497.3466
+Validation:	Batch: 7	Loss: 515.4341
+=== Epoch 77 ===
+Train:		Batch: 26       Loss: 496.3521
+Validation:	Batch: 7	Loss: 514.3737
+=== Epoch 78 ===
+Train:		Batch: 26       Loss: 495.3841
+Validation:	Batch: 7	Loss: 513.3418
+=== Epoch 79 ===
+Train:		Batch: 26       Loss: 494.4419
+Validation:	Batch: 7	Loss: 512.3378
+=== Epoch 80 ===
+Train:		Batch: 26       Loss: 493.5243
+Validation:	Batch: 7	Loss: 511.3608
+=== Epoch 81 ===
+Train:		Batch: 26       Loss: 492.6305
+Validation:	Batch: 7	Loss: 510.4176
+=== Epoch 82 ===
+Train:		Batch: 26       Loss: 491.7596
+Validation:	Batch: 7	Loss: 509.4842
+=== Epoch 83 ===
+Train:		Batch: 26       Loss: 490.9105
+Validation:	Batch: 7	Loss: 508.5815
+=== Epoch 84 ===
+Train:		Batch: 26       Loss: 490.0824
+Validation:	Batch: 7	Loss: 507.7012
+=== Epoch 85 ===
+Train:		Batch: 26       Loss: 489.2744
+Validation:	Batch: 7	Loss: 506.8424
+=== Epoch 86 ===
+Train:		Batch: 26       Loss: 488.4858
+Validation:	Batch: 7	Loss: 506.0038
+=== Epoch 87 ===
+Train:		Batch: 26       Loss: 487.7161
+Validation:	Batch: 7	Loss: 505.1842
+=== Epoch 88 ===
+Train:		Batch: 26       Loss: 486.9657
+Validation:	Batch: 7	Loss: 504.3833
+=== Epoch 89 ===
+Train:		Batch: 26       Loss: 486.2321
+Validation:	Batch: 7	Loss: 503.6021
+=== Epoch 90 ===
+Train:		Batch: 26       Loss: 485.5171
+Validation:	Batch: 7	Loss: 502.8408
+=== Epoch 91 ===
+Train:		Batch: 26       Loss: 484.8191
+Validation:	Batch: 7	Loss: 502.0984
+=== Epoch 92 ===
+Train:		Batch: 26       Loss: 484.1377
+Validation:	Batch: 7	Loss: 501.3739
+=== Epoch 93 ===
+Train:		Batch: 26       Loss: 483.4729
+Validation:	Batch: 7	Loss: 500.6669
+=== Epoch 94 ===
+Train:		Batch: 26       Loss: 482.8216
+Validation:	Batch: 7	Loss: 499.9766
+=== Epoch 95 ===
+Train:		Batch: 26       Loss: 482.1859
+Validation:	Batch: 7	Loss: 499.3023
+=== Epoch 96 ===
+Train:		Batch: 26       Loss: 481.5644
+Validation:	Batch: 7	Loss: 498.6436
+=== Epoch 97 ===
+Train:		Batch: 26       Loss: 480.9566
+Validation:	Batch: 7	Loss: 498.0871
+=== Epoch 98 ===
+Train:		Batch: 26       Loss: 480.3623
+Validation:	Batch: 7	Loss: 497.3708
+=== Epoch 99 ===
+Train:		Batch: 26       Loss: 479.7808
+Validation:	Batch: 7	Loss: 496.7555
+=== Epoch 100 ===
+Train:		Batch: 26       Loss: 479.2125
+Validation:	Batch: 7	Loss: 496.1538
+=== Epoch 101 ===
+Train:		Batch: 26       Loss: 478.6554
+Validation:	Batch: 7	Loss: 495.5649
+=== Epoch 102 ===
+Train:		Batch: 26       Loss: 478.1107
+Validation:	Batch: 7	Loss: 494.9888
+=== Epoch 103 ===
+Train:		Batch: 26       Loss: 477.5775
+Validation:	Batch: 7	Loss: 494.4253
+=== Epoch 104 ===
+Train:		Batch: 26       Loss: 477.0556
+Validation:	Batch: 7	Loss: 493.8748
+=== Epoch 105 ===
+Train:		Batch: 26       Loss: 476.5445
+Validation:	Batch: 7	Loss: 493.3381
+=== Epoch 106 ===
+Train:		Batch: 26       Loss: 476.0446
+Validation:	Batch: 7	Loss: 492.8152
+=== Epoch 107 ===
+Train:		Batch: 26       Loss: 475.5537
+Validation:	Batch: 7	Loss: 492.3045
+=== Epoch 108 ===
+Train:		Batch: 26       Loss: 475.0731
+Validation:	Batch: 7	Loss: 491.8034
+=== Epoch 109 ===
+Train:		Batch: 26       Loss: 474.6023
+Validation:	Batch: 7	Loss: 491.3107
+=== Epoch 110 ===
+Train:		Batch: 26       Loss: 474.1404
+Validation:	Batch: 7	Loss: 490.8274
+=== Epoch 111 ===
+Train:		Batch: 26       Loss: 473.6883
+Validation:	Batch: 7	Loss: 490.3544
+=== Epoch 112 ===
+Train:		Batch: 26       Loss: 473.2457
+Validation:	Batch: 7	Loss: 489.8915
+=== Epoch 113 ===
+Train:		Batch: 26       Loss: 472.8122
+Validation:	Batch: 7	Loss: 489.4386
+=== Epoch 114 ===
+Train:		Batch: 26       Loss: 472.3876
+Validation:	Batch: 7	Loss: 488.9952
+=== Epoch 115 ===
+Train:		Batch: 26       Loss: 471.9715
+Validation:	Batch: 7	Loss: 488.5611
+=== Epoch 116 ===
+Train:		Batch: 26       Loss: 471.5639
+Validation:	Batch: 7	Loss: 488.1366
+=== Epoch 117 ===
+Train:		Batch: 26       Loss: 471.1644
+Validation:	Batch: 7	Loss: 487.7199
+=== Epoch 118 ===
+Train:		Batch: 26       Loss: 470.7729
+Validation:	Batch: 7	Loss: 487.3124
+=== Epoch 119 ===
+Train:		Batch: 26       Loss: 470.3892
+Validation:	Batch: 7	Loss: 486.9134
+=== Epoch 120 ===
+Train:		Batch: 26       Loss: 470.0131
+Validation:	Batch: 7	Loss: 486.5227
+=== Epoch 121 ===
+Train:		Batch: 26       Loss: 469.6443
+Validation:	Batch: 7	Loss: 486.1399
+=== Epoch 122 ===
+Train:		Batch: 26       Loss: 469.2828
+Validation:	Batch: 7	Loss: 485.7646
+=== Epoch 123 ===
+Train:		Batch: 26       Loss: 468.9282
+Validation:	Batch: 7	Loss: 485.3966
+=== Epoch 124 ===
+Train:		Batch: 26       Loss: 468.5805
+Validation:	Batch: 7	Loss: 485.0356
+=== Epoch 125 ===
+Train:		Batch: 26       Loss: 468.2395
+Validation:	Batch: 7	Loss: 484.6816
+=== Epoch 126 ===
+Train:		Batch: 26       Loss: 467.9052
+Validation:	Batch: 7	Loss: 484.3343
+=== Epoch 127 ===
+Train:		Batch: 26       Loss: 467.5773
+Validation:	Batch: 7	Loss: 483.9938
+=== Epoch 128 ===
+Train:		Batch: 26       Loss: 467.2559
+Validation:	Batch: 7	Loss: 483.6602
+=== Epoch 129 ===
+Train:		Batch: 26       Loss: 466.9407
+Validation:	Batch: 7	Loss: 483.3334
+=== Epoch 130 ===
+Train:		Batch: 26       Loss: 466.6317
+Validation:	Batch: 7	Loss: 483.0131
+=== Epoch 131 ===
+Train:		Batch: 26       Loss: 466.3286
+Validation:	Batch: 7	Loss: 482.6992
+=== Epoch 132 ===
+Train:		Batch: 26       Loss: 466.0314
+Validation:	Batch: 7	Loss: 482.3912
+=== Epoch 133 ===
+Train:		Batch: 26       Loss: 465.7397
+Validation:	Batch: 7	Loss: 482.0891
+=== Epoch 134 ===
+Train:		Batch: 26       Loss: 465.4537
+Validation:	Batch: 7	Loss: 481.7926
+=== Epoch 135 ===
+Train:		Batch: 26       Loss: 465.1734
+Validation:	Batch: 7	Loss: 481.5018
+=== Epoch 136 ===
+Train:		Batch: 26       Loss: 464.8978
+Validation:	Batch: 7	Loss: 481.2166
+=== Epoch 137 ===
+Train:		Batch: 26       Loss: 464.6278
+Validation:	Batch: 7	Loss: 480.9369
+=== Epoch 138 ===
+Train:		Batch: 26       Loss: 464.3639
+Validation:	Batch: 7	Loss: 480.6628
+=== Epoch 139 ===
+Train:		Batch: 26       Loss: 464.1032
+Validation:	Batch: 7	Loss: 480.3939
+=== Epoch 140 ===
+Train:		Batch: 26       Loss: 463.8484
+Validation:	Batch: 7	Loss: 480.1302
+=== Epoch 141 ===
+Train:		Batch: 26       Loss: 463.5984
+Validation:	Batch: 7	Loss: 479.8715
+=== Epoch 142 ===
+Train:		Batch: 26       Loss: 463.3532
+Validation:	Batch: 7	Loss: 479.6179
+=== Epoch 143 ===
+Train:		Batch: 26       Loss: 463.1126
+Validation:	Batch: 7	Loss: 479.3697
+=== Epoch 144 ===
+Train:		Batch: 26       Loss: 462.8765
+Validation:	Batch: 7	Loss: 479.1249
+=== Epoch 145 ===
+Train:		Batch: 26       Loss: 462.6448
+Validation:	Batch: 7	Loss: 478.8855
+=== Epoch 146 ===
+Train:		Batch: 26       Loss: 462.4176
+Validation:	Batch: 7	Loss: 478.6506
+=== Epoch 147 ===
+Train:		Batch: 26       Loss: 462.1945
+Validation:	Batch: 7	Loss: 478.4202
+=== Epoch 148 ===
+Train:		Batch: 26       Loss: 461.9757
+Validation:	Batch: 7	Loss: 478.1941
+=== Epoch 149 ===
+Train:		Batch: 26       Loss: 461.7614
+Validation:	Batch: 7	Loss: 477.9723
+=== Epoch 150 ===
+Train:		Batch: 26       Loss: 461.5503
+Validation:	Batch: 7	Loss: 477.7547
+((torch_env) ) marcusj@MacBookPro Chapter 4 Sample Code % 
