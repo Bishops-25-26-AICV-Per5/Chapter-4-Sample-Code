@@ -1,9 +1,9 @@
 __pycache__/**
 **/.DS_Store
 
-saves/**
-animals
-animals/**
+**/saves/**
+**/animals
+**/animals/**
 **/*.pt
 **/*.keras
 word_embeddings/imdb/**
